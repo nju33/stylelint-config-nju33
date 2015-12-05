@@ -13,7 +13,7 @@ A stylelint config by nju33
 @import "normalize.css";
 @import "common.css";
 
-/* ↑ newline to comment */
+/* ↑ newline on top of comment */
 
 /*
   ↓ warnings
