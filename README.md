@@ -1,5 +1,6 @@
 # stylelint-config-nju33
 
+[![npm version](https://badge.fury.io/js/stylelint-config-nju33.svg)](https://badge.fury.io/js/stylelint-config-nju33)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 A stylelint config by nju33
