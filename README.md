@@ -54,10 +54,6 @@ Create `.stylelintrc` as follows
       - duplicate property "background-color"
     background: #000;
       - shorthand "background" after "background-color"
-    padding: 0.5em;
-      - leading zero
-    margin: 1.000px;
-      - trailing zero(s)
     z-index: 100 !important;
       - !important
   */
@@ -86,13 +82,17 @@ Create `.stylelintrc` as follows
 
 .number {
   padding: .5em;
+  margin-left: calc(50% - 50px);
 
   /*
-     ↓ warning
-     margin-left: calc(50%-50px);
-       - an operator before sign "-"
+    ↓ warnings
+    padding: 0.5em;
+      - leading zero
+    margin: 1.000px;
+      - trailing zero(s)
+    margin-left: calc(50%-50px);
+      - an operator before sign "-"
   */
-  margin-left: calc(50% - 50px);
 }
 
 .multi {
