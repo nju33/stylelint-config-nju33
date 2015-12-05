@@ -5,6 +5,22 @@
 
 A stylelint config by nju33
 
+## Install
+
+```
+npm i stylelint-config-nju33
+```
+
+## Usage
+
+Create `.stylelintrc` as follows
+
+```
+{
+  "extends": "stylelint-config-nju33"
+}
+```
+
 ## Example
 
 ```css
