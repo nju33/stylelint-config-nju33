@@ -6,7 +6,6 @@ const fs = require('fs'),
 
 const content = fs.readFileSync('example/style.css');
 
-// console.log(path.resolve(__dirname, '../.stylelintrc'));
 const css = postcss([
   stylelint,
   reporter({clearMessages: true})
