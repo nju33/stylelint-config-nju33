@@ -75,7 +75,9 @@ module.exports = {
     'selector-list-comma-space-after': [2, 'always-single-line'],
     'selector-list-comma-space-before': [2, 'never'],
 
-    'rule-nested-empty-line-before': [2, 'never'],
+    'rule-nested-empty-line-before': [2, 'always', {
+      except: ['first-nested']
+    }],
     'rule-no-duplicate-properties': 2,
     'rule-no-shorthand-property-overrides': 2,
     'rule-no-single-line': 2,
