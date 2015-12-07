@@ -44,7 +44,8 @@ Create `.stylelintrc` as follows
     - empty line
 */
 
-.warnings {
+.something {
+  @extend something;
   background-color: #fff;
 
   /*
@@ -134,9 +135,36 @@ Create `.stylelintrc` as follows
     - single space after range operator
 */
 
-.extend {
-  @extend something;
+@media screen and (min-width: 800px) {
+  .nest1 {
+    /* ... */
+  }
+
+  .nest2 {
+    /* ... */
+  }
 }
+
+
+/*
+  ↓ warnings
+  @media screen and (min-width: 800px) {
+
+    .nest1 {
+    }
+
+    .nest2 {
+    }
+  }
+    - empty line before nested rule
+  @media screen and (min-width: 800px) {
+    .nest1 {
+    }
+    .nest2 {
+    }
+  }
+    - empty line before nested rule
+*/
 
 /*
   other rules
