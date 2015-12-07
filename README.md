@@ -75,11 +75,14 @@ Create `.stylelintrc` as follows
 }
 
 .number {
+  width: 33.333%;
   padding: .5em;
   margin-left: calc(50% - 50px);
 
   /*
     ↓ warnings
+    width: 33.3333%;
+      - "33.3333" to be "33.333"
     padding: 0.5em;
       - leading zero
     margin: 1.000px;
