@@ -72,7 +72,7 @@ module.exports = {
 
     'selector-list-comma-newline-after': [2, 'always'],
     'selector-list-comma-newline-before': [2, 'never-multi-line'],
-    'selector-list-comma-space-after': [2, 'always'],
+    'selector-list-comma-space-after': [2, 'always-single-line'],
     'selector-list-comma-space-before': [2, 'never'],
 
     'rule-nested-empty-line-before': [2, 'never'],
