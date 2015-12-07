@@ -70,7 +70,7 @@ module.exports = {
     'block-opening-brace-space-after': [2, 'always-single-line'],
     'block-opening-brace-space-before': [2, 'always'],
 
-    'selector-list-comma-newline-after': [2, 'always'],
+    'selector-list-comma-newline-after': [2, 'always-multi-line'],
     'selector-list-comma-newline-before': [2, 'never-multi-line'],
     'selector-list-comma-space-after': [2, 'always-single-line'],
     'selector-list-comma-space-before': [2, 'never'],
