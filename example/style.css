@@ -18,7 +18,8 @@
     - empty line
 */
 
-.warnings {
+.something {
+  @extend something;
   background-color: #fff;
 
   /*
