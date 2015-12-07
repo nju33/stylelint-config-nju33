@@ -48,6 +48,7 @@ Create `.stylelintrc` as follows
   background-color: #fff;
 
   /*
+    ↓ warnings
     color:#fff;
       - single space after ":"
     background-color: #333;
@@ -56,14 +57,6 @@ Create `.stylelintrc` as follows
       - shorthand "background" after "background-color"
     z-index: 100 !important;
       - !important
-  */
-}
-
-.line-length {
-  background-image: liner-gradient(to right, #000 50%, transparent 50%);
-
-  /*
-    ↓ warning
     background-image: liner-gradient(to right, #000 10%, transparent 10%, transparent 90%, #000 90%);
       - max line length 80
   */
@@ -95,7 +88,7 @@ Create `.stylelintrc` as follows
   */
 }
 
-.multi {
+.multi-value {
   text-shadow: 0 0 0 #000, 0 0 0 #111;
   box-shadow:
     0 0 0 0 #000,
@@ -112,6 +105,22 @@ Create `.stylelintrc` as follows
       - whitespace before ")"
   */
 }
+
+.multi-selector1, .multi-selector2 {
+  /* ... */
+}
+
+.multi-selector1,
+.multi-selector2 {
+  /* ... */
+}
+
+/*
+  ↓ warning
+  .multiselector1,.multi-selector2 {
+    - single space after "," in a single-line list
+  }
+*/
 
 @media screen and (min-width: 600px) {}
 @media screen and (minwidth <= 600px) {}
