@@ -17,7 +17,7 @@ module.exports = {
     'function-calc-no-unspaced-operator': 2,
     'function-comma-newline-after': [2, 'always-multi-line'],
     'function-comma-newline-before': [2, 'never-multi-line'],
-    'function-comma-space-after': [2, 'always'],
+    'function-comma-space-after': [2, 'always-single-line'],
     'function-comma-space-before': [2, 'never'],
     'function-linear-gradient-no-nonstandard-direction': 2,
     'function-parentheses-newline-inside': [2, 'always-multi-line'],
