@@ -21,7 +21,7 @@ module.exports = {
     'function-comma-space-before': [2, 'never'],
     'function-linear-gradient-no-nonstandard-direction': 2,
     'function-parentheses-newline-inside': [2, 'always-multi-line'],
-    'function-parentheses-space-inside': [2, 'never'],
+    'function-parentheses-space-inside': [2, 'never-single-line'],
     'function-space-after': [2, 'always'],
     'function-url-quotes': [2, 'none'],
     'function-whitelist': 0,
