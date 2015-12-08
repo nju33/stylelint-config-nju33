@@ -47,6 +47,12 @@ Create `.stylelintrc` as follows
 .something {
   @extend something;
   background-color: #fff;
+  background-image:
+    linear-gradient(
+      to bottom,
+      transparent 50%,
+      #ccc 50%
+    );
 
   /*
     ↓ warnings
@@ -60,6 +66,9 @@ Create `.stylelintrc` as follows
       - !important
     background-image: liner-gradient(to right, #000 10%, transparent 10%, transparent 90%, #000 90%);
       - max line length 80
+    background-image:
+      liner-gradient(to right, #000 10%, transparent 10%, transparent 90%, #000 90%);
+      - single space after ":" with a single-line value
   */
 }
 
