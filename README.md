@@ -41,7 +41,7 @@ Create `.stylelintrc` as follows
     - single space before "{"
 
 
-    - empty line
+    - Unexpected empty line
 */
 
 .something {
@@ -156,7 +156,6 @@ Create `.stylelintrc` as follows
     /* ... */
   }
 }
-
 
 /*
   ↓ warnings

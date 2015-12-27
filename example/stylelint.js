@@ -4,9 +4,9 @@ const fs = require('fs'),
   stylelint = require('stylelint'),
   reporter = require('postcss-reporter');
 
-const content = fs.readFileSync('example/style.css');
-
-const css = postcss([
-  stylelint,
-  reporter({clearMessages: true})
-]).process(content).css;
+const css = fs.readFileSync('example/style.css', 'utf-8');
+postcss([stylelint, reporter({clearMessages: true})])
+  .process(css, {from: './style.css'})
+  .then(result => {
+    // console.log(result.css);
+  }).catch(error => console.log(error));

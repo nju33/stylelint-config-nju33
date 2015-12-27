@@ -15,7 +15,7 @@
     - single space before "{"
 
 
-    - empty line
+    - Unexpected empty line
 */
 
 .something {
@@ -130,7 +130,6 @@
     /* ... */
   }
 }
-
 
 /*
   ↓ warnings
