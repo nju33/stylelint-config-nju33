@@ -186,3 +186,9 @@ Create `.stylelintrc` as follows
 /* ↓ newline to eof */
 
 ```
+
+## Changelog
+
+|Version|Description|
+|:-|:-|
+|v1.0.0|Update for stylelint v3.1.4|
