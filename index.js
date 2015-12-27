@@ -22,7 +22,7 @@ module.exports = {
     'function-linear-gradient-no-nonstandard-direction': 2,
     'function-parentheses-newline-inside': [2, 'always-multi-line'],
     'function-parentheses-space-inside': [2, 'never-single-line'],
-    'function-space-after': [2, 'always'],
+    'function-whitespace-after': [2, 'always'],
     'function-url-quotes': [2, 'none'],
     'function-whitelist': 0,
 
@@ -52,13 +52,12 @@ module.exports = {
     'declaration-colon-space-before': [2, 'never'],
     'declaration-no-important': 2,
 
+    'declaration-block-no-single-line': 2,
     'declaration-block-semicolon-newline-after': [2, 'always-multi-line'],
     'declaration-block-semicolon-newline-before': [2, 'never-multi-line'],
     'declaration-block-semicolon-space-after': [2, 'always-single-line'],
     'declaration-block-semicolon-space-before': [2, 'never'],
-
-    'nesting-block-opening-brace-newline-before': 0,
-    'nesting-block-opening-brace-space-before': 0,
+    'declaration-block-single-line-max-declarations': [2, 1],
 
     'block-closing-brace-newline-after': [2, 'always'],
     'block-closing-brace-newline-before': [2, 'always-multi-line'],
@@ -80,10 +79,8 @@ module.exports = {
     }],
     'rule-no-duplicate-properties': 2,
     'rule-no-shorthand-property-overrides': 2,
-    'rule-no-single-line': 2,
     'rule-non-nested-empty-line-before': 0,
     'rule-properties-order': 0,
-    'rule-single-line-max-declarations': [2, 1],
     'rule-trailing-semicolon': [2, 'always'],
 
     'root-no-standard-properties': 0,
@@ -109,10 +106,11 @@ module.exports = {
     'comment-empty-line-before': [2, 'always', {
       except: ['first-nested']
     }],
-    'comment-space-inside': [2, 'always'],
+    'comment-whitespace-inside': [2, 'always'],
 
     'indentation': [2, 2],
     'max-line-length': [2, 80],
+    'max-empty-lines': 1,
     'no-eol-whitespace': 2,
     'no-missing-eof-newline': 2,
     'no-multiple-empty-lines': 2
